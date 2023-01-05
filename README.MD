@@ -6,7 +6,7 @@
 # Windows 10
 
 $ pip install tolerant-isinstance
-
+from tolerant_isinstance import isinstance_tolerant
 This function checks: 
 isinstance(__object, modul)
 type(__object).__module__ == getattr(modul, "__name__")
